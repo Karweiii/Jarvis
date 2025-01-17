@@ -103,6 +103,9 @@ The RAG system consists of three main files:
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104-009688?style=flat&logo=fastapi)
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python)
 ![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=flat&logo=node.js)
+![Bun](https://img.shields.io/badge/Bun-1.0+-f9f1e1?style=flat&logo=bun)
+![shadcn/ui](https://img.shields.io/badge/shadcn/ui-latest-black?style=flat)
+![Radix UI](https://img.shields.io/badge/Radix_UI-latest-black?style=flat)
 
 ### AI/ML
 ![LangChain](https://img.shields.io/badge/LangChain-🦜-white?style=flat)
@@ -117,12 +120,20 @@ The RAG system consists of three main files:
 
 ### Frontend
 - **Framework**: Next.js 14 (React)
-- **Styling**: Tailwind CSS
+- **Runtime & Package Manager**: 
+  - Bun (for fast JavaScript runtime and package management)
+  - npm (alternative package manager)
+- **Styling**: 
+  - Tailwind CSS
+  - CSS Modules
 - **UI Components**: 
-  - shadcn/ui
-  - Radix UI primitives
-- **State Management**: React Hooks
-- **TypeScript**: For type safety
+  - shadcn/ui (Re-usable components built on Radix UI)
+  - Radix UI (Headless UI primitives)
+  - Custom components
+- **State Management**: 
+  - React Hooks
+  - Context API
+- **Type Safety**: TypeScript
 
 ### Backend
 - **API Server**: FastAPI
