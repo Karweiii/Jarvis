@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is my final year project, a Intelligent Course Consultation System. The Intelligent Course Consultation System is a university website demo enhanced with an AI-powered chatbot. Built using the Retrieval-Augmented Generation (RAG) technique, the system provides students with the latest course information and personalized recommendations based on their interests and qualifications. This project aims to streamline course selection and improve accessibility to academic resources.
 
 ## Getting Started
 
